@@ -1,0 +1,7 @@
+beautifulsoup4==4.8.0
+lxml==4.4.1
+nltk==3.4.5
+tensorflow==1.14.0
+gast==0.2.2
+# if you use GPUs, install tensorflow-gpu.
+# tensorflow-gpu==1.14.0

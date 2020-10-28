@@ -121,7 +121,7 @@ We release the run files, BERT models fine-tuned on two collections, and the par
 
 \* Note that the BERT-Small corresponds to BERT-Mini in the [BERT repo](https://github.com/google-research/bert), for the sake of convenient descriptions in the paper.
 
-**Usage**: unzip each file, rename the folder to the size of BERT, such as "large" or "base", and put the folder in the directory `${main_path}/${dataset}/model/`, which is specified in `run.sh`.
+**Usage**: take BERT-Large fine-tuned on Robust04 for example, you need to first unzip all the `fold-*.zip` files, then rename the root folder from `BERT-Large-Robust04` to `large`, and put the folder in the directory `${main_path}/robust04/model/`. Note that `main_path` is specified in `run.sh`.
 
 * [Run files of BERT-QE](https://drive.google.com/file/d/1ZaaDYXGHNoLa7YvHlIHPt22m0uZGxxVj/view?usp=sharing)
 * [Initial rankings](https://drive.google.com/file/d/12p4FnLKW90qbdJLQaoZfjFTQXg_B-shq/view?usp=sharing)

@@ -178,18 +178,18 @@ def main(_):
 
         if FLAGS.task == "passage":
             for fold in range(1, 6):
-                path = os.path.join(path, "fold-" + str(fold))
-                if not tf.gfile.Exists(path):
-                    tf.gfile.MakeDirs(path)
+                cur_path = os.path.join(path, "fold-" + str(fold))
+                if not tf.gfile.Exists(cur_path):
+                    tf.gfile.MakeDirs(cur_path)
                 for split in ["train", "valid", "test"]:
                     qid_list = load_qid_from_cv(FLAGS.dataset, fold, split)
 
                     with tf.gfile.Open(predictions_path, 'r') as ref_file, \
                             tf.gfile.Open(
-                                os.path.join(path, "{}_query_passage_score_{}.tsv".format(FLAGS.dataset, split)),
+                                os.path.join(cur_path, "{}_query_passage_score_{}.tsv".format(FLAGS.dataset, split)),
                                 'w') as out_file, \
                             tf.gfile.Open(
-                                os.path.join(path, "{}_query_passage_{}_top1.tsv".format(FLAGS.dataset, split)),
+                                os.path.join(cur_path, "{}_query_passage_{}_top1.tsv".format(FLAGS.dataset, split)),
                                 'w') as top_file:
                         top_res = collections.OrderedDict()
                         for line in ref_file:

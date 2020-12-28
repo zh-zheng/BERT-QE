@@ -2,7 +2,7 @@
 
 This repo contains the code and resources for the paper:
 
- [BERT-QE: Contextualized Query Expansion for Document Re-ranking](https://arxiv.org/abs/2009.07258).
+ [BERT-QE: Contextualized Query Expansion for Document Re-ranking](https://www.aclweb.org/anthology/2020.findings-emnlp.424/).
  In *Findings of ACL: EMNLP 2020*.
 
 ## Introduction
@@ -134,7 +134,7 @@ If you use our code or resources, please cite this paper:
 @inproceedings{zheng2020bertqe,
     title={BERT-QE: Contextualized Query Expansion for Document Re-ranking},
     author={Zheng, Zhi and Hui, Kai and He, Ben and Han, Xianpei and Sun, Le and Yates, Andrew},
-    booktitle = "Findings of ACL: EMNLP",
+    booktitle = "Findings of ACL: EMNLP 2020",
     year = "2020",
     publisher = "Association for Computational Linguistics"
 }

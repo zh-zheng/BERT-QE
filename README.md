@@ -131,12 +131,21 @@ We release the run files, BERT models fine-tuned on two collections, and the par
 
 If you use our code or resources, please cite this paper:
 ```
-@inproceedings{zheng2020bertqe,
-    title={BERT-QE: Contextualized Query Expansion for Document Re-ranking},
-    author={Zheng, Zhi and Hui, Kai and He, Ben and Han, Xianpei and Sun, Le and Yates, Andrew},
-    booktitle = "Findings of ACL: EMNLP 2020",
+@inproceedings{zheng-etal-2020-bert,
+    title = "{BERT-QE}: {C}ontextualized {Q}uery {E}xpansion for {D}ocument {R}e-ranking",
+    author = "Zheng, Zhi  and
+      Hui, Kai  and
+      He, Ben  and
+      Han, Xianpei  and
+      Sun, Le  and
+      Yates, Andrew",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2020",
+    month = nov,
     year = "2020",
-    publisher = "Association for Computational Linguistics"
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.findings-emnlp.424",
+    pages = "4718--4728"
 }
 ``` 
 ## Acknowledgement

@@ -32,7 +32,7 @@ In this repo, we provide instructions on how to run BERT-QE on Robust04 and GOV2
 
 ### Data preparation
 
-You need to obtain [Robust04](https://trec.nist.gov/data_disks.html) (i.e. TREC Disks 4&5) and [GOV2](http://ir.dcs.gla.ac.uk/test_collections/gov2-summary.htm) collections.
+You need to obtain [Robust04](https://trec.nist.gov/data/t13_robust.html) and [GOV2](http://ir.dcs.gla.ac.uk/test_collections/gov2-summary.htm) collections.
 
 The (useful) directory structure of Robust04:
 ```
